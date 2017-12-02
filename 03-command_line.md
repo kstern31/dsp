@@ -74,5 +74,5 @@ What does `xargs` do? Give an example of how to use it.
 
 > > `xargs` reads inputs from the user and executes the command. The default command is 'echo' (print the input).
 > > You can use `xargs` to find files using the 'find' command and '-name' option. Each blank space is treated as a delimiter.
-> > The delimiter can be changed when entering in `xargs`, with the '-d option'. E.g. xargs -d `\n` would only treat new lines
+> > The delimiter can be changed when entering in `xargs`, with the '-d option'. E.g. xargs -d '\n' would only treat new lines
 > > as a delimiter.
