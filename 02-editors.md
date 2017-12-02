@@ -17,10 +17,10 @@ A lot of your work will be done in a text editor. You have to know how to use yo
 You will need to use a terminal text editor at times.  You will **always need to use a terminal editor on the cloud** (e.g. Amazon Web Services).  This means an editor that will run entirely inside a terminal window, without spawning a new window, entirely without mouse input.
 
 There are 3 widely used terminal editors.  Here's a [discussion comparing **nano**, **vim**, and **emacs**](http://askubuntu.com/questions/804/comparizon-between-text-editors-in-ubuntu-vim-vs-emacs-vs-nano).  
- * [nano](http://staffwww.fullcoll.edu/sedwards/Nano/IntroToNano.html) - this is the simplest to use 
+ * [nano](http://staffwww.fullcoll.edu/sedwards/Nano/IntroToNano.html) - this is the simplest to use
  * [vim](http://www.howtogeek.com/102468/a-beginners-guide-to-editing-text-files-with-vi/) - is the default on many systems and you might find yourself in it even if you did not intend to
  * [emacs](http://ocean.stanford.edu/research/quick_emacs.html) - oldest editor, has steep learning curve, powerful, has lots of extensible options
- 
+
 Note:  Both Emacs and vim have built-in interactive tutorials that you can try.
 
 You should know how to do the following tasks, *at the minimum*, on **nano** and **vim**:  
@@ -36,7 +36,7 @@ Here's a basic list of commands:
 | 1 | nano           | nano filen.py  | [just type]  | ctrl + o, enter    | ctrl + x       |
 | 2 | vim, vi        | vim filen.py   | [just type]  | esc :w, enter      | esc :q, enter  |
 | 3 | emacs          | emacs filen.py | [just type]  | ctrl-x, xtrl-s     | ctrl-x, ctrl-c |
- 
+
 
 ---
 
@@ -81,7 +81,8 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will use vim as my terminal editor of choice. It seemed to be the most intuitive of the three, and the note of
+>> having the same editor experience across graphical and non-graphical environments was also a bonus.
 
 --
 
@@ -89,6 +90,9 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
- 
+>> I will use Atom as my graphical editor. I have previously used Sublime Text and Atom, and have found both to be comparable.
+>> Opening a file via atom through the command line is ever so slightly faster. I like the idea of Atom being an open-source
+>> editor as well. One interesting feature is using the multiple cursor feature by holding the cmd button. This allows you to
+>> enter text in multiple places at once. Cmd+Shift+D allows you to duplicate the selected line of code. I haven't customized
+>> my atom editor too much so far (only the color scheme), but I am looking to introduce some shortcuts to make me more
+>> efficient with my work.
