@@ -19,7 +19,19 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ctrl+left/right: moves between arguments in your command
+> > !!: represents the last command you ran
+> > cd -: move back to your last working directory
+> > pwd: show current working directory path
+> > mkdir: creating a directory
+> > rm -r [directoryname]: deleting a directory (the -r deletes all child directories and files too)
+> > touch [filename.txt]: create a .txt file
+> > rm [filename]: deleting a file
+> > mv [oldfilename] [newfilename]: renaming a file
+> > mv [source directory] [new directory location]: moving a file
+> > ls -a: list files starting with . (hidden files)
+> > ls -t: list files in order of last modified
+> > cp [source directory location] [new directory location]: copying a file from one directory to another
 
 ---
 
@@ -34,7 +46,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls`: lists the files in the working directory
+> > `ls -a`: list all files including those starting with .
+> > `ls -l`: list files in long format
+> > `ls -lh`: list files in long format with readable file size
+> > `ls -lah`: list all files including those starting with . in long format with readable file size
+> > `ls -t`: list files in order of last modified
+> > `ls -Glp`: list files in long format, adding / after each filename and coloring it blue if that file is a directory
 
 ---
 
@@ -42,7 +60,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls -d`: displays only directories
+> > `ls -g`: long format but excludes owner name
+> > `ls -R`: displays subdirectories as well
+> > `ls -u`: display files by file access time
+> > `ls -1`: display each entry on one line
 
 ---
 
@@ -50,7 +72,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
- 
-
+> > `xargs` reads inputs from the user and executes the command. The default command is 'echo' (print the input).
+> > You can use `xargs` to find files using the 'find' command and '-name' option. Each blank space is treated as a delimiter.
+> > The delimiter can be changed when entering in `xargs`, with the '-d option'. E.g. xargs -d `\n` would only treat new lines
+> > as a delimiter.
